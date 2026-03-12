@@ -1,0 +1,38 @@
+# Model checkpoints (too large for GitHub, ~435MB each)
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Data files (if large)
+# *.csv  # keep small CSVs but exclude if needed
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+venv/
+env/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
